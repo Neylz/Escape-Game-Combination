@@ -4,6 +4,7 @@ This is a web app that detects a series of keystrokes on the keyboard to deliver
 *Created for an unique event*
 
 ---Bind keys---
+
 W,A,S,D,F,G,rightArrow
 
 All keys are bindable in the "correspondance" table in "app.js" via usage of keyCode (https://keyCode.info).
