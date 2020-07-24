@@ -8,13 +8,13 @@ var suiteTest = []
 var anim = document.querySelectorAll('.circle');
 
 anim[0].style.animationPlayState = 'paused';
+var paused = function () {
+    anim[0].style.animationPlayState = 'paused';
+}
+
 
 function touche(e){
     anim[0].style.animationPlayState = 'running';
-
-    function paused() {
-        anim[0].style.animationPlayState = 'paused';
-    }
         
     var touche = event.keyCode;
 
@@ -29,6 +29,6 @@ function touche(e){
         alert('good')
     };
 
-    //setTimeout(paused(), 1000);
+    setTimeout(paused, 1000);
 }
 
