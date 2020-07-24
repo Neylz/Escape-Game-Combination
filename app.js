@@ -29,6 +29,6 @@ function touche(e){
         alert('good')
     };
 
-    setTimeout(paused, 1000);
+    setTimeout(paused, 990);
 }
 
